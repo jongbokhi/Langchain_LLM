@@ -1,8 +1,6 @@
 # Email Summary and Search-Based Report Chatbot  
 
-The **Email Summary and Search-Based Report Chatbot** is a tool designed to streamline email processing and provide actionable insights by combining advanced natural language processing (NLP) with web search capabilities.  
-
-## Features  
+The **Email Summary and Search-Based Report Chatbot** is a tool designed to summarize email by leveraging cutomized prompt using Langchain.
 
 1. **Email Parsing and Summarization**  
    - Leverages the **GPT-4 Turbo** model to parse emails according to a customizable prompt.  
