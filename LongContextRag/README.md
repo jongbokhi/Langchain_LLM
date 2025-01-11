@@ -27,7 +27,7 @@ Below are the responses to the query:
 ### Before Applying RAPTOR
 
 **✅Answer**:  
-The article is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
+The report is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
 
 - The model retrieved short chunks of information relevant to the query.
 - Responses were fragmented, focusing on isolated details.
@@ -38,7 +38,9 @@ The article is a quarterly report on household debt and credit for Q3 2024, rele
 ### After Applying RAPTOR
 
 **✅Answer**:  
-The article covers several key points related to consumer credit data and household debt in the United States, based on data from the New York Federal Reserve and Equifax. The main points include:
+The report covers several key points related to consumer credit data and household debt in the United States, based on data from the New York Federal Reserve and Equifax. 
+
+The main points include:
 
 1. **Credit Scores and Loan Origination**: Discusses the use of Equifax Risk Score 3.0 and market trends in auto and mortgage loan origination.
 2. **Collection Activities**: Notes that most collection activities are related to medical bills and utilities.
