@@ -1,56 +1,59 @@
-## Long Context RAG
+# Long Context RAG: Comparing RAG Process and RAPTOR Methodology
 
-The **RAG process** is designed to **obtain accurate answers within the framework of given information**.
+## Overview
 
-This process is carried out as follows:
+The **RAG process** is designed to **obtain accurate answers within the framework of given information**. This process involves:
 
-1. The **Retriever** searches for information highly relevant to the query.
-2. The retrieved information is provided as **context**.
-3. The **LLM** utilizes this context to generate more accurate responses.
+1. **Retriever**: Searches for information highly relevant to the query.
+2. **Context**: Provides the retrieved information as context.
+3. **LLM**: Utilizes this context to generate accurate responses.
 
-However, since the Retriever generally relies on short and nearby text chunks, it is known to have limitations in answering high-level questions that require understanding the overall context.
+### Limitations of RAG
+- The Retriever generally relies on short, nearby text chunks.
+- Struggles to answer high-level questions requiring a comprehensive understanding of the overall context.
 
+### RAPTOR Methodology
 To address these limitations and enable the LLM to respond accurately to questions requiring a comprehensive understanding of the text, an improved methodology known as **RAPTOR** has been developed.
 
 ---
 
-### Results Before and After Applying RAPTOR
+## Results:
 
-I compared the response results using the **HOUSEHOLD DEBT AND CREDIT REPORT (Q3 2024)** (46 pages).
+The comparison was conducted using the **HOUSEHOLD DEBT AND CREDIT REPORT (Q3 2024)** (46 pages). Below are the responses to the query:  
+**"Summarize the main points covered in the full article."**
 
-## Q. Summarize the main points covered in the full article.
+### Before Applying RAPTOR
+
+**Answer**:  
+The article is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
+
+- The model retrieved short chunks of information relevant to the query.
+- Responses were fragmented, focusing on isolated details.
+- High-level questions about broader trends and implications were not fully addressed.
+
 ---
-### Before Applying RAPTOR (Using RAG)
-    
-    ✅Answer:
-    
-    The article is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
-      
-- The model retrieved short chunks of information based on the query.
-- Responses were fragmented and lacked an understanding of the overall trends in the report.
-- High-level questions about the report's broader implications were not fully addressed due to limited context.
-    
 
 ### After Applying RAPTOR
 
-- The methodology allowed the model to process and synthesize the report's overall context.
-- Responses demonstrated a comprehensive understanding of key trends and insights within the 46-page document.
-- High-level questions were answered with greater accuracy, supported by broader contextual awareness.
-    
-    ✅Answer:
-    
-    The article covers several key points related to consumer credit data and household debt in the United States, based on data from the New York Federal Reserve and Equifax. The main points include:
-    
-    1. **Credit Scores and Loan Origination**: It discusses the use of Equifax Risk Score 3.0 to assess consumer credit risk and provides information on the origination of auto and mortgage loans, highlighting the market share of borrowers with high credit scores.
-    2. **Collection Activities and Data Sampling**: The document notes that most collection activities are related to medical bills and utilities, with the panel designed to track household-level credit and debt, primarily using creditor-reported account information.
-    3. **Delinquency and Public Records**: It provides information on delinquency rates and the flow into early delinquency, mentioning an increase in delinquency rates during the third quarter of 2024.
-    4. **Age Groups and Data Discrepancies**: Age groups are redefined annually, and the document notes that unknown birth years for some individuals may affect data accuracy.
-    5. **Debt Statistics and Analysis**: The report includes statistics on total debt balance, which increased to $17.94 trillion in Q3 2024, and analyzes debt by type, account numbers, and credit inquiries.
-    6. **State and Age-Based Financial Data**: It presents financial data by state and age group, including debt balances, delinquency rates, and foreclosure and bankruptcy cases.
-    7. **Credit Reporting Practices**: The document addresses issues with unreported accounts, foreclosure and bankruptcy rates, and sampling methods used in data analysis.
-    
-    Overall, the article provides a comprehensive overview of consumer credit reports and sample design, aiding financial institutions and policymakers in understanding and responding to credit market trends.
-  
-    
+**Answer**:  
+The article covers several key points related to consumer credit data and household debt in the United States, based on data from the New York Federal Reserve and Equifax. The main points include:
+
+1. **Credit Scores and Loan Origination**: Discusses the use of Equifax Risk Score 3.0 and market trends in auto and mortgage loan origination.
+2. **Collection Activities**: Notes that most collection activities are related to medical bills and utilities.
+3. **Delinquency Rates**: Reports an increase in delinquency rates during Q3 2024.
+4. **Age Groups and Data Accuracy**: Highlights annual redefinition of age groups and potential data discrepancies due to unknown birth years.
+5. **Debt Statistics**: Analyzes debt types, total debt balance ($17.94 trillion), and credit inquiries in Q3 2024.
+6. **State and Age-Based Data**: Provides insights on debt balances, delinquency rates, and financial data by state and age group.
+7. **Credit Reporting Practices**: Addresses issues with unreported accounts, foreclosure rates, and data sampling methods.
+
+**Key Improvements**:  
+- RAPTOR enabled the model to synthesize the document's overall context.  
+- Responses demonstrated a comprehensive understanding of trends and insights.  
+- High-level questions were answered with greater accuracy and contextual awareness.
+
 ---
-This comparison highlights the effectiveness of RAPTOR in overcoming the limitations of RAG, especially for complex queries requiring an understanding of the full document.
+
+## Conclusion
+
+This comparison highlights the effectiveness of RAPTOR in overcoming the limitations of RAG, particularly for complex queries requiring an understanding of the full document. By leveraging RAPTOR, it is possible to achieve more accurate and contextually rich responses in long-text scenarios.
+
