@@ -1,5 +1,18 @@
 # Long Context RAG
 
+## The report and code used in project
+
+HOUSEHOLD DEBT AND CREDIT REPORT (Q3 2024)
+
+- Link: https://www.newyorkfed.org/microeconomics/hhdc
+
+Code Source:
+- Link: [RAPTOR-Long-Context-RAG-PDF](https://github.com/teddylee777/langchain-kr/blob/main/12-RAG/05-RAPTOR-Long-Context-RAG-PDF.ipynb)
+
+
+Article:
+- RAPTOR : [Link](https://arxiv.org/pdf/2401.18059)
+
 ## Overview
 
 The **RAG process** is designed to **obtain accurate answers within the framework of given information**. This process involves:
