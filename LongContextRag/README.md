@@ -23,7 +23,8 @@ I compared the response results using the **HOUSEHOLD DEBT AND CREDIT REPORT (Q3
 ### Before Applying RAPTOR (Using RAG)
     
     ✅Answer:
-      The article is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
+    
+    The article is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
       
 - The model retrieved short chunks of information based on the query.
 - Responses were fragmented and lacked an understanding of the overall trends in the report.
