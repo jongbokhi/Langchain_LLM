@@ -20,7 +20,7 @@ To address these limitations and enable the LLM to respond accurately to questio
 ## Results:
 
 The comparison was conducted using the **HOUSEHOLD DEBT AND CREDIT REPORT (Q3 2024)** (46 pages). Below are the responses to the query:  
-**"Summarize the main points covered in the full article."**
+**Q: "Summarize the main points covered in the full article."**
 
 ### Before Applying RAPTOR
 
