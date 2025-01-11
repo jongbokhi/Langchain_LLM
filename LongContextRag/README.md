@@ -52,7 +52,7 @@ The main points include:
    
 ---
 
-**Key Improvements**:  
+**💡Key Improvements**:  
 - RAPTOR enabled the model to synthesize the document's overall context.  
 - Responses demonstrated a comprehensive understanding of trends and insights.  
 - High-level questions were answered with greater accuracy and contextual awareness.
