@@ -1,4 +1,4 @@
-### Long Context RAG
+## Long Context RAG
 
 The **RAG process** is designed to **obtain accurate answers within the framework of given information**.
 
@@ -19,19 +19,15 @@ To address these limitations and enable the LLM to respond accurately to questio
 I compared the response results using the **HOUSEHOLD DEBT AND CREDIT REPORT (Q3 2024)** (46 pages).
 
 ## Q. Summarize the main points covered in the full article.
-
+---
 ### Before Applying RAPTOR (Using RAG)
-
+    
+    ✅Answer:
+      The article is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
+      
 - The model retrieved short chunks of information based on the query.
 - Responses were fragmented and lacked an understanding of the overall trends in the report.
 - High-level questions about the report's broader implications were not fully addressed due to limited context.
-    
-    <aside>
-    ✅
-    
-    The article is a quarterly report on household debt and credit for Q3 2024, released by the Federal Reserve Bank of New York. It is based on data from the New York Fed Consumer Credit Panel/Equifax. The report is part of the research and statistics efforts by the Center for Microeconomic Data. For further details, a data dictionary is available at the end of the report, and inquiries can be directed to Joelle Scally at the provided email address.
-    
-    </aside>
     
 
 ### After Applying RAPTOR
@@ -40,8 +36,7 @@ I compared the response results using the **HOUSEHOLD DEBT AND CREDIT REPORT (Q3
 - Responses demonstrated a comprehensive understanding of key trends and insights within the 46-page document.
 - High-level questions were answered with greater accuracy, supported by broader contextual awareness.
     
-    <aside>
-    ✅
+    ✅Answer:
     
     The article covers several key points related to consumer credit data and household debt in the United States, based on data from the New York Federal Reserve and Equifax. The main points include:
     
@@ -54,8 +49,7 @@ I compared the response results using the **HOUSEHOLD DEBT AND CREDIT REPORT (Q3
     7. **Credit Reporting Practices**: The document addresses issues with unreported accounts, foreclosure and bankruptcy rates, and sampling methods used in data analysis.
     
     Overall, the article provides a comprehensive overview of consumer credit reports and sample design, aiding financial institutions and policymakers in understanding and responding to credit market trends.
+  
     
-    </aside>
-    
-
+---
 This comparison highlights the effectiveness of RAPTOR in overcoming the limitations of RAG, especially for complex queries requiring an understanding of the full document.
