@@ -1,4 +1,4 @@
-# Agentic Retrieval-Augmented Generation(RAG) for Industry Classification 
+# Agentic RAG for Industry Classification 
 
 This project explores how **Agentic Retrieval-Augmented Generation (RAG)** can be applied to enrich business dataset attributes. 
 Specifically, it focuses on determining the **Industry Classification** of companies based on their names while adhering to the **GLOBAL INDUSTRY CLASSIFICATION STANDARD**.  
