@@ -64,7 +64,7 @@ The experiment yielded **highly satisfactory results**, with significant improve
 - **Search tools** for real-time data retrieval,  
 - **Document retrieval** for standards compliance, and  
 - **LLM capabilities** for reasoning and decision-making,
-- 
+  
 ![result1](https://github.com/user-attachments/assets/f982ac3e-b7cc-446a-a13d-5b2c7b39f216)
 ![result2](https://github.com/user-attachments/assets/c60bf92e-bfc5-409d-b70c-f4e858b31c39)
 
@@ -72,6 +72,7 @@ The experiment yielded **highly satisfactory results**, with significant improve
 
 ## Future Work  
 
-This project provides a scalable foundation for automated data enrichment. Future enhancements include:  
+This project provides a scalable foundation for automated data enrichment. 
+Future enhancements include:  
 - Extending the classification to larger datasets.  
 - Adding **real-time APIs** for fetching updated company data.
