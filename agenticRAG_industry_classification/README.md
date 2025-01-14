@@ -25,7 +25,7 @@ Previous attempts at solving this problem involved techniques like:
 - **[result](https://github.com/jongbokhi/problem-set_Forward-Analytics)**
 ---
 
-## Alternative: Agentic Retrieval-Augmented Generation (RAG)  
+## Alternative: Agentic RAG
 
 To overcome the challenges, this project leverages **Agentic RAG** with the following components:  
 
