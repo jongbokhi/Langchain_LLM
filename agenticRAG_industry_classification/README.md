@@ -21,8 +21,8 @@ Previous attempts at solving this problem involved techniques like:
 - **Zero-shot Classification (Facebook BART-large-MNLI)**  
 - **XGBoost**  
 
-However, these methods showed unsatisfactory performance.
-**[result](https://github.com/jongbokhi/problem-set_Forward-Analytics)**
+ However, these methods showed unsatisfactory performance.
+- **[result](https://github.com/jongbokhi/problem-set_Forward-Analytics)**
 ---
 
 ## Alternative: Agentic Retrieval-Augmented Generation (RAG)  
