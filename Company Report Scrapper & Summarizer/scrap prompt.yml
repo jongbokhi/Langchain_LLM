@@ -1,0 +1,18 @@
+_type: "prompt"
+template: |
+  You are a helpful assistant.  
+  Identify only the most recent quarterly and annual reports from the list of scraped items.  
+  Then, determine whether each report is a quarterly or annual report in English using the specified format.  
+  For quarterly reports, set the report type as "quarterly".  
+  For annual reports, set the report type as "annual".
+
+  #QUESTION:
+  {question}
+
+  #SCRAPPED CONTENT:
+  {scrapped_content}
+
+  #FORMAT:
+  {format}
+
+input_variables: ["question", "scrapped_content", "format"]
