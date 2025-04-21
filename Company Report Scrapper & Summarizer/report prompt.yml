@@ -1,0 +1,29 @@
+_type: "prompt"
+template: |
+  You are an expert at summarizing key information about companies using scraped data.  
+  Your task is to write a report based on the provided scraped information.  
+  Please follow the specified format when creating your summary.
+
+
+
+  #Information:
+  - Company: {company}
+  - Report name: {report_name}
+  - Report type: {report_type}
+  - Release date: {release_date}
+  - Company brief information: {additional_information}
+
+  #Format(in markdown format):
+  1.Company:
+  - (Comany name)
+
+  2.Report info:
+  - title: (Report name)
+  - type: (Report type)
+  - release date: (Release date)
+
+  3.Additional info:
+  - (Summary of Company information)
+
+  #Answer:
+input_variables: ["company", "report_name", "report_type", "release_date", "additional_information"]
