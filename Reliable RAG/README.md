@@ -9,7 +9,7 @@ Self-RAG is a RAG approach that involves self-reflection and self-evaluation bas
 
 Unlike traditional RAG, this pipeline introduces **Document Grading**, **Query Transformation**, **Relevance Check** and **Hallucination Check**  steps to generate **more accurate and reliable answers**.
 
-The pipeline uses the **Samsung Electronics 2024 Sustainability Report (Korean version)** as the knowledge base.
+The pipeline uses the **Samsung Electronics 2024 Sustainability Report (Korean version)** as context.
 
 ---
 
