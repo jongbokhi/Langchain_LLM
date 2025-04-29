@@ -1,4 +1,4 @@
-# 📄 RAG Pipeline inspired by Adaptive RAG
+# 📄 Enhanced RAG Pipeline (Inspired by Adaptive RAG)
 
 ## Overview
 
