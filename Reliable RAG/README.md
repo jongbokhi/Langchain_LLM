@@ -3,7 +3,10 @@
 ## Overview
 
 This project implements a **Self-RAG pipeline**.  
-[reference Self-RAG (https://arxiv.org/abs/2310.11511)]
+**[reference Self-RAG](https://arxiv.org/abs/2310.11511)**
+
+Self-RAG is a RAG approach that involves self-reflection and self-evaluation based on the retrieved documents and the generated answer.
+
 Unlike traditional RAG, this pipeline introduces **Document Grading**, **Query Transformation**, **Relevance Check** and **Hallucination Check**  steps to generate **more accurate and reliable answers**.
 
 The pipeline uses the **Samsung Electronics 2024 Sustainability Report (Korean version)** as the knowledge base.
