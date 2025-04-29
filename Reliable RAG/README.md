@@ -3,7 +3,7 @@
 ## Overview
 
 This project implements a **custom Retrieval-Augmented Generation (RAG) pipeline** inspired by the Adaptive RAG structure.  
-Unlike traditional RAG, this pipeline introduces **Document Grading** and **Query Transformation** steps to generate **more accurate and reliable answers**.
+Unlike traditional RAG, this pipeline introduces **Document Grading**, **Query Transformation**, **Relevance Check** and **Hallucination Check**  steps to generate **more accurate and reliable answers**.
 
 The pipeline uses the **Samsung Electronics 2024 Sustainability Report (Korean version)** as the knowledge base.
 
@@ -12,13 +12,16 @@ The pipeline uses the **Samsung Electronics 2024 Sustainability Report (Korean v
 ## Key Features
 
 - **Document Grading:**  
-  Retrieved documents are evaluated, and irrelevant documents are filtered out.
+  a grader assessing relevance of a retrieved document to a user question..
 
 - **Query Transformation:**  
-  If retrieved documents are not sufficiently relevant, the original query is rephrased and retrieval is retried.
+  a question re-writer that converts an input question to a better version that is optimized for vectorstore retrieval
+  
+- **Hallucination Check:**  
+  a grader assessing whether an LLM generation is grounded in supported by a set of retrieved facts.
 
-- **Hallucination Handling:**  
-  If the generated answer is inaccurate or hallucinated, the retrieval and generation process is repeated.
+- **Relevance Check:**  
+  a grader assessing whether an answer addresses and resolves a question
 
 - **Iterative Improvement:**  
   Through document grading and query refinement, the model continuously improves the answer quality.
