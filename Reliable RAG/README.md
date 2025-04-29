@@ -1,8 +1,9 @@
-# 📄 Enhanced RAG Pipeline (Inspired by Adaptive RAG)
+# 📄 Self-RAG
 
 ## Overview
 
-This project implements a **custom Retrieval-Augmented Generation (RAG) pipeline** inspired by the Adaptive RAG structure.  
+This project implements a **Self-RAG pipeline**.  
+[reference Self-RAG (https://arxiv.org/abs/2310.11511)]
 Unlike traditional RAG, this pipeline introduces **Document Grading**, **Query Transformation**, **Relevance Check** and **Hallucination Check**  steps to generate **more accurate and reliable answers**.
 
 The pipeline uses the **Samsung Electronics 2024 Sustainability Report (Korean version)** as the knowledge base.
