@@ -3,7 +3,8 @@
 ## Overview
 
 This project implements a **Self-RAG pipeline**.  
-**[reference Self-RAG](https://arxiv.org/abs/2310.11511)**
+
+**[Reference: Self-RAG](https://arxiv.org/abs/2310.11511)**
 
 Self-RAG is a RAG approach that involves self-reflection and self-evaluation based on the retrieved documents and the generated answer.
 
